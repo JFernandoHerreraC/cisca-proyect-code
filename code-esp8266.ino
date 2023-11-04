@@ -1,12 +1,8 @@
 #include <ESP8266WiFi.h>
 
-const char* ssid = "Megacable-5EC0";  // Rellena con el nombre de tu red WiFi
-const char* password = "EqQmF4EFnn";  // Rellena con la contraseña de tu red WiFi
-const char* host = "192.168.1.71";
-
-/*const char* ssid = "Xiaomi 11 Lite 5G NE";  // Rellena con el nombre de tu red WiFi
-const char* password = "786f2486ffab";  // Rellena con la contraseña de tu red WiFi
-const char* host = "192.168.50.99";*/
+const char* ssid = "";  // Rellena con el nombre de tu red WiFi
+const char* password = "";  // Rellena con la contraseña de tu red WiFi
+const char* host = "";    //Rellena con la ip de host
 
 const int lonbuffer = 20;
 char buffer[lonbuffer];
